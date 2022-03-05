@@ -12,6 +12,6 @@ const port = process.env.PORT || 8000
 routeInitializer(app)
 
 //App Listening
-app.listen(port, (): void => {
+app.listen(port, () => {
     console.log(`listening on port ${port}`)
 })
